@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Giacomo Gambarana</title>
+        <meta name="Giacomo Gambarana" content="Giacomo Gambarana">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon"  type="image/png" href="media/assets/favicon_g.png">
+        
+    </head>
+    
+    <body>
+        <div id="background">
+            <div id="background_opacity"></div>
+            <img id="background_image" src="media/assets/SITO_Main_1.png"/> 
+         </div>
+        
+      <div id="header_main">
+         <a href="index.html"> <div id="header_logo"><img class="img_logo" src="media/assets/gg_logo_2.png"></div></a>
+          
+          <input type="checkbox" id="main-navigation-toggle" class="btn btn--close" title="Toggle main navigation" />
+<label for="main-navigation-toggle">
+    <img id="hamburger_open" src="media/assets/hamburger_1.svg"/>
+     <img id="hamburger_close" src="media/assets/cross_1.svg"/>
+</label>
+
+<nav id="main-navigation" class="nav-main">
+  <ul class="menu">
+       <li class="menu__item">
+      <a class="menu__link" href="index.html">Home</a>
+    </li>
+    <li class="menu__item">
+      <a class="menu__link" href="about.html">About</a>
+    </li>
+    <li class="menu__item">
+      <a class="menu__link" href="https://www.instagram.com/gambafolio/">Instagram</a>
+    </li>
+    <li class="menu__item">
+      <a class="menu__link" href="mailto:gambarana.giacomo@gmail.com">Contact</a>
+    </li>
+  </ul>
+</nav>
+           
+ </div>
+        
+        
+        
+           <div id="content"> 
+           <div id="list">
+               <div class="list_voice"><a href="armanicasa.html"><p class="list_project_1"  onmouseover="setNewImage1()" onmouseout="setOldImage1()">Armani Casa</p></a></div>
+               <div class="list_voice"><a href="armanidolci.html"><p class="list_project_2" onmouseover="setNewImage2()" onmouseout="setOldImage2()">Armani Dolci</p></a></div>
+               <div class="list_voice"><a href="sae.html"><p class="list_project_3" onmouseover="setNewImage3()" onmouseout="setOldImage3()">SAE Projects</p></a></div>
+               <div class="list_voice"><a href="individual.html"><p class="list_project_4" onmouseover="setNewImage4()" onmouseout="setOldImage4()">Individual Works</p></a></div>
+               <div class="list_voice"><a href="miscellaneous.html"><p class="list_project_5" onmouseover="setNewImage5()" onmouseout="setOldImage5()">Miscellaneous</p></a></div>
+            </div> 
+            </div>    
+        
+         <script>
+             
+          
+             
+         function setNewImage1()
+         {
+                  
+             document.getElementById("background_image").src = "media/150UP_Works/Armani_Casa/Cocky.png";
+            
+
+         }
+             
+             function setOldImage1()
+             {
+            document.getElementById("background_image").src = "media/assets/SITO_Main_1.png";
+                 
+             }
+             
+              function setNewImage2()
+         {
+             document.getElementById("background_image").src = "media/150UP_Works/Armani_Dolci/Pasqua/1.png";
+         }
+             
+             function setOldImage2()
+             {
+            document.getElementById("background_image").src = "media/assets/SITO_Main_1.png";
+                 
+             }
+             
+             function setNewImage3()
+         {
+             document.getElementById("background_image").src = "media/Sae_Works/LivingRoom/Close up bottiglia.png";
+         }
+             
+             function setOldImage3()
+             {
+            document.getElementById("background_image").src = "media/assets/SITO_Main_1.png";
+                 
+             }
+             
+             function setNewImage4()
+         {
+             document.getElementById("background_image").src = "media/assets/orco.png";
+             
+         }
+             
+             function setOldImage4()
+             {
+            document.getElementById("background_image").src = "media/assets/SITO_Main_1.png";
+             
+
+             }
+             
+             function setNewImage5()
+         {
+             document.getElementById("background_image").src ="media/Before_Sae_Workss/alieno_desktop.jpg";
+         }
+             
+             function setOldImage5()
+             {
+            document.getElementById("background_image").src = "media/assets/SITO_Main_1.png";
+                 
+             }
+             
+             function setNewImage6()
+         {
+             document.getElementById("background_image").src = "media/Individual_Works/Orco/Side_1.jpg";
+         }
+             
+             function setOldImage6()
+             {
+            document.getElementById("background_image").src = "media/assets/SITO_Main_1.png";
+                 
+             }
+        </script>
+        
+        <div id="content_mobile">
+        
+        <div class="home_section_mobile" id="1">
+            <img class="background_image_mobile" src="media/150UP_Works/Armani_Casa/Cocky.png">
+            
+            
+           <div class="button_section">
+               
+            <a class="view_project" href="armanicasa.html"><div class="button_project">
+            <p class="button_project_text">view project</p>
+            </div></a>
+               
+               <a href="#2"><div class="arrow_scroll">
+            <img class="arrow_scroll" src="media/assets/arrow_scroll.svg">
+                    </div></a>
+               
+          </div>
+            
+        </div>
+            
+             <div class="home_section_mobile" id="2">
+            <img class="background_image_mobile" src="media/150UP_Works/Armani_Dolci/Pasqua/1.png">
+                 
+               
+                 <div class="button_section">
+             <a class="view_project" href="armanidolci.html"><div class="button_project">
+            <p class="button_project_text">view project</p>
+            </div></a>
+    
+                  <a href="#3"> <div class="arrow_scroll">
+            <img class="arrow_scroll" src="media/assets/arrow_scroll.svg">
+                    </div></a>
+           </div> 
+        </div>
+            
+             <div class="home_section_mobile" id="3">
+            <img class="background_image_mobile" src="media/Sae_Works/LivingRoom/Close%20up%20bottiglia.png">
+            
+            
+           <div class="button_section">
+               
+            <a class="view_project" href="sae.html"><div class="button_project">
+            <p class="button_project_text">view project</p>
+            </div></a>
+               
+               <a href="#4"><div class="arrow_scroll">
+            <img class="arrow_scroll" src="media/assets/arrow_scroll.svg">
+                    </div></a>
+               
+          </div>
+            
+        </div>
+            
+            <div class="home_section_mobile" id="4">
+            <img class="background_image_mobile" src="media/Individual_Works/Orco/Front.jpg">
+            
+            
+           <div class="button_section">
+               
+            <a class="view_project" href="individual.html"><div class="button_project">
+            <p class="button_project_text">view project</p>
+            </div></a>
+               
+               <a href="#5"><div class="arrow_scroll">
+            <img class="arrow_scroll" src="media/assets/arrow_scroll.svg">
+                    </div></a>
+               
+          </div>
+            
+        </div>
+            
+                        <div class="home_section_mobile" id="4">
+            <img class="background_image_mobile" src="media/Before_Sae_Workss/166050226_2903754239862269_8512968304691857582_n.jpg">
+            
+            
+           <div class="button_section">
+               
+            <a class="view_project" href="miscellaneous.html"><div class="button_project">
+            <p class="button_project_text">view project</p>
+            </div></a>
+               
+           <!--    <a href="#5"><div class="arrow_scroll">
+            <img class="arrow_scroll" src="media/assets/arrow_scroll.svg">
+                    </div></a> -->
+               
+          </div>
+            
+        </div>
+            
+            
+            
+            
+            
+            
+         </div>
+        
+            
+
+    </body>
